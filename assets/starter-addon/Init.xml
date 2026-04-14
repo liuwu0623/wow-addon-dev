@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+    <!-- 脚本加载顺序：主逻辑 → 配置面板 → 施法按钮 → 小地图 -->
+    <Script file="StarterAddon.lua"/>
+    <Script file="StarterAddon_Config.lua"/>
+    <Script file="StarterAddon_CastButton.lua"/>
+    <Script file="StarterAddon_MiniMap.lua"/>
+
+</Ui>
