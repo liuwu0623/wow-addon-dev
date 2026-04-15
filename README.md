@@ -19,17 +19,18 @@ wow-addon-dev/
 ├── README.md                             # 本文件
 ├── assets/
 │   └── starter-addon/                    # 可复制的入门插件模板
-│       ├── StarterAddon.toc              #   TOC 元数据（Interface: 80100）
+│       ├── StarterAddon.toc              #   TOC 元数据（Interface: 38001）
 │       ├── Init.xml                      #   脚本加载入口
 │       ├── StarterAddon.lua              #   主逻辑（命名空间、事件、调试）
 │       ├── StarterAddon_Config.lua       #   Settings API 配置面板
 │       ├── StarterAddon_CastButton.lua   #   SecureActionButton 施法按钮示例
 │       └── StarterAddon_MiniMap.lua      #   可拖拽小地图图标示例
 └── references/                           # 参考文档（按需加载）
-    ├── api-changes-3801.md               #   3.80.1 新增/废弃/替换 API 对照表
-    ├── api-quick-ref.md                  #   常用 Lua API 速查（按功能分类）
-    ├── events.md                         #   常用事件列表与参数说明
-    └── secure-action-button.md           #   SecureActionButton 完整用法指南
+        ├── wow-ui-source.md              #   官方 UI 源码索引（576 个 API 模块）
+        ├── api-changes-3801.md           #   3.80.1 新增/废弃/替换 API 对照表
+        ├── api-quick-ref.md              #   常用 Lua API 速查（按功能分类）
+        ├── events.md                     #   常用事件列表与参数说明
+        └── secure-action-button.md       #   SecureActionButton 完整用法指南
 ```
 
 ## 快速开始
@@ -39,9 +40,10 @@ wow-addon-dev/
 ## 核心版本信息
 
 - **目标版本**：3.80.1（时光服 / Cataclysm Classic）
-- **TOC Interface**：`80100`
+- **TOC Interface**：`38001`
 - **API 体系**：正式服（Retail）对齐
 - **SecureActionButton**：替代被限制的 `/cast` 宏命令
+- **官方 UI 源码**：[Gethe/wow-ui-source](https://github.com/Gethe/wow-ui-source) — 暴雪官方 UI 源码镜像，含 576 个结构化 API 文档模块、废弃 API 兼容层和完整框架实现
 
 ## 技能触发关键词
 

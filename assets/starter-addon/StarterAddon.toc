@@ -1,4 +1,4 @@
-## Interface: 80100
+## Interface: 38001
 ## Title: StarterAddon
 ## Notes: 时光服 3.80.1 入门插件模板
 ## Author: YourName
